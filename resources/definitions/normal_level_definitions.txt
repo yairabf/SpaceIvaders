@@ -1,0 +1,101 @@
+
+# Level 1
+# Complicated pattern
+
+START_LEVEL
+level_name: Ski is For The Soul
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/ski12.jpg)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/ski_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:29
+START_BLOCKS
+-
+ssss--s--s--s
+s-----s-s---s
+ssss--ss----s
+---s--s-s---s
+ssss--s--s--s
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# come on you reds
+
+START_LEVEL
+level_name: Come On You Reds
+ball_velocities:-60,400 -45,350 -30,450
+background:image(background_images/MUFC.jpg)
+paddle_speed:500
+paddle_width:200
+block_definitions:definitions/MUFC_block_definition.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:52
+START_BLOCKS
+-
+-
+-
+-fffffffffffff
+-fffffffffffff
+-fffffffffffff
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# three lions
+
+START_LEVEL
+level_name:Three Lions
+ball_velocities:45,500
+background:image(background_images/england.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/three_lions_block_definition.txt
+blocks_start_x:150
+blocks_start_y:150
+row_height:50
+num_blocks:43
+START_BLOCKS
+--b--bbb--bbb--bbb
+--b--bwb--b----b
+--b--bbb--b----b
+--b----b--bbb--bbb
+--b----b--bwb--bwb
+--b----b--bbb--bbb
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Welcome to the Jungle
+ball_velocities:45,350 -45,350 -30,350 30,350
+background:image(background_images/jungle.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
