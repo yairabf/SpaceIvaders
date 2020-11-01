@@ -1,0 +1,8 @@
+# default values for blocks
+default height:30 width:52 stroke:color(black)
+
+# block definitions
+bdef symbol:s hit_points:2 fill-2:image(block_images/ski1.png) fill-1:image(block_images/ski.png)
+
+# spacers definitions
+sdef symbol:- width:52

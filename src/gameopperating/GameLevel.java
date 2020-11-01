@@ -1,10 +1,6 @@
 package gameopperating;
 
-import animations.AnimationRunner;
-import animations.Animation;
-import animations.KeyPressStoppableAnimation;
-import animations.CountdownAnimation;
-import animations.PauseScreen;
+import animations.*;
 
 import collidables.Collidable;
 import collidables.Block;
@@ -170,6 +166,11 @@ public class GameLevel implements Animation {
             KeyPressStoppableAnimation k = new KeyPressStoppableAnimation(this.keyboard, "space", new PauseScreen());
             this.runner.run(k);
         }
+//        //if the player has paused
+//        if (this.keyboard.isPressed("q")) {
+//            KeyPressStoppableAnimation k = new KeyPressStoppableAnimation(this.keyboard, "y", new QuitScreen());
+//            this.runner.run(k);
+//        }
         this.sprites.drawAllOn(d);
         this.sprites.notifyAllTimePassed(dt);
     }

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpaceIvaders:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpaceIvaders_jar</output-path>
+    <root id="archive" name="SpaceIvaders.jar">
+      <element id="module-output" name="SpaceIvaders" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/biuoop-1.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

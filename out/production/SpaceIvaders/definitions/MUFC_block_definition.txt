@@ -1,0 +1,8 @@
+# default values for blocks
+default height:25 width:50 stroke:color(red) hit_points:1
+
+# block definitions
+bdef symbol:f hit_points:2 fill:image(block_images/ball.jpg) fill-2:image(block_images/footbal_fire.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
