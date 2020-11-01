@@ -1,4 +1,5 @@
-# SpaceInvaders
-The Space Invader game.
+# The Vader invader
+This game is basically the classic Space Invader game.
 The game was written in Java.
-I worte this project as one of my assignment in OOP course.
+I wrote this project as one of my assignments in the OOP course.
+After I graduated, I decided to modify the game a bit to have a more personal signature 
